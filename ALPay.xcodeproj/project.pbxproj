@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		714C211E1F1CA86D0062EE67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714C211D1F1CA86D0062EE67 /* AppDelegate.swift */; };
+		714C21201F1CA86D0062EE67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714C211F1F1CA86D0062EE67 /* ViewController.swift */; };
+		714C21231F1CA86D0062EE67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714C21211F1CA86D0062EE67 /* Main.storyboard */; };
+		714C21251F1CA86D0062EE67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 714C21241F1CA86D0062EE67 /* Assets.xcassets */; };
+		714C21281F1CA86D0062EE67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714C21261F1CA86D0062EE67 /* LaunchScreen.storyboard */; };
+		714C21331F1CA86E0062EE67 /* ALPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714C21321F1CA86E0062EE67 /* ALPayTests.swift */; };
+		714C213E1F1CA86E0062EE67 /* ALPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714C213D1F1CA86E0062EE67 /* ALPayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		714C212F1F1CA86E0062EE67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 714C21121F1CA86D0062EE67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 714C21191F1CA86D0062EE67;
+			remoteInfo = ALPay;
+		};
+		714C213A1F1CA86E0062EE67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 714C21121F1CA86D0062EE67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 714C21191F1CA86D0062EE67;
+			remoteInfo = ALPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		714C211A1F1CA86D0062EE67 /* ALPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		714C211D1F1CA86D0062EE67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		714C211F1F1CA86D0062EE67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		714C21221F1CA86D0062EE67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		714C21241F1CA86D0062EE67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		714C21271F1CA86D0062EE67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		714C21291F1CA86D0062EE67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714C212E1F1CA86E0062EE67 /* ALPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		714C21321F1CA86E0062EE67 /* ALPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALPayTests.swift; sourceTree = "<group>"; };
+		714C21341F1CA86E0062EE67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714C21391F1CA86E0062EE67 /* ALPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		714C213D1F1CA86E0062EE67 /* ALPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALPayUITests.swift; sourceTree = "<group>"; };
+		714C213F1F1CA86E0062EE67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		714C21171F1CA86D0062EE67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714C212B1F1CA86E0062EE67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714C21361F1CA86E0062EE67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		714C21111F1CA86D0062EE67 = {
+			isa = PBXGroup;
+			children = (
+				714C211C1F1CA86D0062EE67 /* ALPay */,
+				714C21311F1CA86E0062EE67 /* ALPayTests */,
+				714C213C1F1CA86E0062EE67 /* ALPayUITests */,
+				714C211B1F1CA86D0062EE67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		714C211B1F1CA86D0062EE67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				714C211A1F1CA86D0062EE67 /* ALPay.app */,
+				714C212E1F1CA86E0062EE67 /* ALPayTests.xctest */,
+				714C21391F1CA86E0062EE67 /* ALPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		714C211C1F1CA86D0062EE67 /* ALPay */ = {
+			isa = PBXGroup;
+			children = (
+				714C211D1F1CA86D0062EE67 /* AppDelegate.swift */,
+				714C211F1F1CA86D0062EE67 /* ViewController.swift */,
+				714C21211F1CA86D0062EE67 /* Main.storyboard */,
+				714C21241F1CA86D0062EE67 /* Assets.xcassets */,
+				714C21261F1CA86D0062EE67 /* LaunchScreen.storyboard */,
+				714C21291F1CA86D0062EE67 /* Info.plist */,
+			);
+			path = ALPay;
+			sourceTree = "<group>";
+		};
+		714C21311F1CA86E0062EE67 /* ALPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				714C21321F1CA86E0062EE67 /* ALPayTests.swift */,
+				714C21341F1CA86E0062EE67 /* Info.plist */,
+			);
+			path = ALPayTests;
+			sourceTree = "<group>";
+		};
+		714C213C1F1CA86E0062EE67 /* ALPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				714C213D1F1CA86E0062EE67 /* ALPayUITests.swift */,
+				714C213F1F1CA86E0062EE67 /* Info.plist */,
+			);
+			path = ALPayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		714C21191F1CA86D0062EE67 /* ALPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714C21421F1CA86E0062EE67 /* Build configuration list for PBXNativeTarget "ALPay" */;
+			buildPhases = (
+				714C21161F1CA86D0062EE67 /* Sources */,
+				714C21171F1CA86D0062EE67 /* Frameworks */,
+				714C21181F1CA86D0062EE67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALPay;
+			productName = ALPay;
+			productReference = 714C211A1F1CA86D0062EE67 /* ALPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		714C212D1F1CA86E0062EE67 /* ALPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714C21451F1CA86E0062EE67 /* Build configuration list for PBXNativeTarget "ALPayTests" */;
+			buildPhases = (
+				714C212A1F1CA86E0062EE67 /* Sources */,
+				714C212B1F1CA86E0062EE67 /* Frameworks */,
+				714C212C1F1CA86E0062EE67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				714C21301F1CA86E0062EE67 /* PBXTargetDependency */,
+			);
+			name = ALPayTests;
+			productName = ALPayTests;
+			productReference = 714C212E1F1CA86E0062EE67 /* ALPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		714C21381F1CA86E0062EE67 /* ALPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714C21481F1CA86E0062EE67 /* Build configuration list for PBXNativeTarget "ALPayUITests" */;
+			buildPhases = (
+				714C21351F1CA86E0062EE67 /* Sources */,
+				714C21361F1CA86E0062EE67 /* Frameworks */,
+				714C21371F1CA86E0062EE67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				714C213B1F1CA86E0062EE67 /* PBXTargetDependency */,
+			);
+			name = ALPayUITests;
+			productName = ALPayUITests;
+			productReference = 714C21391F1CA86E0062EE67 /* ALPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		714C21121F1CA86D0062EE67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lifp;
+				TargetAttributes = {
+					714C21191F1CA86D0062EE67 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 487PQPPTGA;
+						ProvisioningStyle = Automatic;
+					};
+					714C212D1F1CA86E0062EE67 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 487PQPPTGA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 714C21191F1CA86D0062EE67;
+					};
+					714C21381F1CA86E0062EE67 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 487PQPPTGA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 714C21191F1CA86D0062EE67;
+					};
+				};
+			};
+			buildConfigurationList = 714C21151F1CA86D0062EE67 /* Build configuration list for PBXProject "ALPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 714C21111F1CA86D0062EE67;
+			productRefGroup = 714C211B1F1CA86D0062EE67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				714C21191F1CA86D0062EE67 /* ALPay */,
+				714C212D1F1CA86E0062EE67 /* ALPayTests */,
+				714C21381F1CA86E0062EE67 /* ALPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		714C21181F1CA86D0062EE67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714C21281F1CA86D0062EE67 /* LaunchScreen.storyboard in Resources */,
+				714C21251F1CA86D0062EE67 /* Assets.xcassets in Resources */,
+				714C21231F1CA86D0062EE67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714C212C1F1CA86E0062EE67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714C21371F1CA86E0062EE67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		714C21161F1CA86D0062EE67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714C21201F1CA86D0062EE67 /* ViewController.swift in Sources */,
+				714C211E1F1CA86D0062EE67 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714C212A1F1CA86E0062EE67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714C21331F1CA86E0062EE67 /* ALPayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714C21351F1CA86E0062EE67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714C213E1F1CA86E0062EE67 /* ALPayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		714C21301F1CA86E0062EE67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 714C21191F1CA86D0062EE67 /* ALPay */;
+			targetProxy = 714C212F1F1CA86E0062EE67 /* PBXContainerItemProxy */;
+		};
+		714C213B1F1CA86E0062EE67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 714C21191F1CA86D0062EE67 /* ALPay */;
+			targetProxy = 714C213A1F1CA86E0062EE67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		714C21211F1CA86D0062EE67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				714C21221F1CA86D0062EE67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		714C21261F1CA86D0062EE67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				714C21271F1CA86D0062EE67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		714C21401F1CA86E0062EE67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		714C21411F1CA86E0062EE67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		714C21431F1CA86E0062EE67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = ALPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifp.ALPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		714C21441F1CA86E0062EE67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = ALPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifp.ALPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		714C21461F1CA86E0062EE67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = ALPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifp.ALPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALPay.app/ALPay";
+			};
+			name = Debug;
+		};
+		714C21471F1CA86E0062EE67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = ALPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifp.ALPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALPay.app/ALPay";
+			};
+			name = Release;
+		};
+		714C21491F1CA86E0062EE67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = ALPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifp.ALPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ALPay;
+			};
+			name = Debug;
+		};
+		714C214A1F1CA86E0062EE67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = ALPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifp.ALPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ALPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		714C21151F1CA86D0062EE67 /* Build configuration list for PBXProject "ALPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714C21401F1CA86E0062EE67 /* Debug */,
+				714C21411F1CA86E0062EE67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		714C21421F1CA86E0062EE67 /* Build configuration list for PBXNativeTarget "ALPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714C21431F1CA86E0062EE67 /* Debug */,
+				714C21441F1CA86E0062EE67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		714C21451F1CA86E0062EE67 /* Build configuration list for PBXNativeTarget "ALPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714C21461F1CA86E0062EE67 /* Debug */,
+				714C21471F1CA86E0062EE67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		714C21481F1CA86E0062EE67 /* Build configuration list for PBXNativeTarget "ALPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714C21491F1CA86E0062EE67 /* Debug */,
+				714C214A1F1CA86E0062EE67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 714C21121F1CA86D0062EE67 /* Project object */;
+}
